@@ -12,7 +12,6 @@ class ServiceProvider extends BaseServiceProvider
     public function boot(Router $router)
     {
         $this->map($router);
-        $this->publish();
     }
 
     protected function map($router)
